@@ -2,18 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  margin: 40px;
+}
+
 #the-canvas {
-  border:1px solid black;
+  border: 1px solid #aaaaaa;
 }
 
 #drag1 {
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 
 #div1 {
-  width: 200px;
-  height: 200px;
-  padding: 10px;
+  width: 302px;
+  height: 302px;
   border: 1px solid #aaaaaa;
+  margin-left: 20px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.target_wrappers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -12,25 +12,5 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
 //= require pdf
-//= require pdf.worker
-
-document.onmousemove = function(e){
-  var pageCoords = "( " + e.pageX + ", " + e.pageY + " )";
-  console.log(pageCoords);
-};
-
-function allowDrop(ev) {
-  ev.preventDefault();
-}
-
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
+//= require dragon
