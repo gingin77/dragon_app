@@ -8,4 +8,4 @@ An app for experiementing with/learning:
 - Ruby version: 2.4.1
 - Rails 5.1.6
 
-![alt text](https://github.com/gingin77/dragon_app/blob/master/dragon_drop.gif)
+![alt text](https://github.com/gingin77/dragon_app/blob/master/dragon_drop_with_clicks.gif)
