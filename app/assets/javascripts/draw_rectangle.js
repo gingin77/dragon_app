@@ -54,8 +54,10 @@ class RectangleDrawer {
   }
 
   onMouseUp(e) {
+    let bounds = this.getBounds()
     this.dragging = false
     this.endPosition = this.getRelativePosition(e)
+    createInputField(bounds);
     this.stopListeningForMouseMoves()
   }
 
@@ -88,4 +90,16 @@ async function makeDrawableCanvas () {
   } catch (error) {
     console.log("there's no drawable_canvas")
   }
+}
+
+function createInputField(bounds) {
+  let input_tag = document.createElement('input');
+  input_tag.setAttribute('id', 'form_field');
+  input_tag.style.top = (bounds.y + 20) + "px";
+  input_tag.style.left = (bounds.x + 20) + "px";
+  input_tag.style.fontSize = ((bounds.height * 0.9) + "px");
+  input_tag.style.maxWidth = (bounds.width + "px");
+  
+  let show_div = document.getElementById('show');
+  show_div.appendChild(input_tag);
 }
