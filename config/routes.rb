@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :dragons, only: :index
+  resources :dragons, only: [:index, :show]
 end
