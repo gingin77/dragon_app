@@ -9,3 +9,4 @@ An app for experiementing with/learning:
 - Rails 5.1.6
 
 ![alt text](https://github.com/gingin77/dragon_app/blob/master/dragon_drop_with_clicks.gif)
+![alt text](https://github.com/gingin77/dragon_app/blob/master/draw_rectangles_on_pdf.gif)
