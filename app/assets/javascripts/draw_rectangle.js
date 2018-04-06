@@ -20,8 +20,8 @@ class RectangleDrawer {
 
   getRelativePosition(e) {
     var pos = {
-      x: e.clientX - this.target.offsetLeft,
-      y: e.clientY - this.target.offsetTop
+      x: e.clientX - this.target.offsetLeft + window.pageXOffset,
+      y: e.clientY - this.target.offsetTop + window.pageYOffset
     }
     return pos
   }
