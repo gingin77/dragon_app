@@ -8437,7 +8437,7 @@ function _fetchDocument(worker, source, pdfDataRangeTransport, docId) {
   }
   return worker.messageHandler.sendWithPromise('GetDocRequest', {
     docId: docId,
-    apiVersion: '2.0.480',
+    apiVersion: '2.0.487',
     source: {
       data: source.data,
       url: source.url,
