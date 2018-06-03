@@ -1,11 +1,11 @@
 // get url for the HelloWorld pdf
-let url = '//cdn.mozilla.net/pdfjs/tracemonkey.pdf';
+let url = '//cdn.mozilla.net/pdfjs/helloworld.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 let pdfjsLib = window['pdfjs-dist/build/pdf'];
 
 // The workerSrc property shall be specified.
-pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.489/pdf.worker.js'
 
 // Asynchronous download of PDF
 var loadingTask = pdfjsLib.getDocument(url);

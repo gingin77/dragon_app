@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require pdf
 //= require dragon
 //= require get_pdf
 //= require draw_rectangle
