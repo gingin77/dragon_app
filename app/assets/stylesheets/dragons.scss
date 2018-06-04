@@ -2,8 +2,28 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+// Fonts imported from Google fonts
+// font-family: 'Rock Salt', cursive;
+
 body {
   margin: 40px;
+  font-family: 'Rock Salt', cursive;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.all_together {
+  width: 80%;
+}
+
+.charm_container {
+  float: left;
+  width: 202px;
+  height: 402px;
+  margin-left: 10px;
 }
 
 #the-canvas {
@@ -17,17 +37,18 @@ body {
 
 #div1 {
   width: 302px;
-  height: 302px;
+  height: 402px;
   border: 1px solid #aaaaaa;
   margin-left: 20px;
 }
 
 #wrapper {
+  float: right;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 70%;
 }
 
 .target_wrappers {
