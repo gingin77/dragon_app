@@ -1,12 +1,14 @@
 # Dragon App
 
-An app for experiementing with/learning:
+An app for experimenting with:
 - the PDF.js library
 - JS drag-and-drop functionalities
-- learning best practices with the Rails asset pipeline
 
-- Ruby version: 2.4.1
+The app uses:
+- Ruby 2.4.1
 - Rails 5.1.6
+- PostgreSQL 9.6.5
+- for more info, see the Gemfile
 
 ![alt text](https://github.com/gingin77/dragon_app/blob/master/dragon_drop_with_clicks.gif)
 ![alt text](https://github.com/gingin77/dragon_app/blob/master/draw_rectangles_on_pdf.gif)

@@ -1,5 +1,5 @@
 // get url for the HelloWorld pdf
-let url = '//cdn.mozilla.net/pdfjs/helloworld.pdf';
+let url = '//cdn.mozilla.net/pdfjs/tracemonkey.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 let pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -17,7 +17,7 @@ loadingTask.promise.then(function(pdf) {
   pdf.getPage(pageNumber).then(function(page) {
     console.log('Page loaded');
 
-    var scale = 2;
+    var scale = 1;
     var viewport = page.getViewport(scale);
 
     // Prepare canvas using PDF page dimensions
