@@ -10,5 +10,5 @@ The app uses:
 - PostgreSQL 9.6.5
 - for more info, see the Gemfile
 
-![alt text](https://github.com/gingin77/dragon_app/blob/master/dragon_drop_with_clicks.gif)
-![alt text](https://github.com/gingin77/dragon_app/blob/master/draw_rectangles_on_pdf.gif)
+![alt text](https://github.com/gingin77/dragon_app/blob/master/droppable.gif)
+![alt text](https://github.com/gingin77/dragon_app/blob/master/input_fields.gif)
